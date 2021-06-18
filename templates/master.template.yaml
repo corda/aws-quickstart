@@ -130,7 +130,7 @@ Resources:
           Ref: InstanceType
         KeyPairName:
           Ref: KeyPairName
-        PrivateSubnet1ID:
+        PrivateSubnet1ID: 
           Fn::GetAtt:
           - VPCStack
           - Outputs.PrivateSubnet1AID
